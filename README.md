@@ -8,5 +8,5 @@ The theme uses laravel-mix to compile the assets. The structure of the assets di
 1. Install the dependencies using npm/yarn.
 1. Make sure you update the "Template" option in the `style.css` file, so that it matches your parent theme.
 1. Update the wp_enqueue_script/wp_enqueue_style dependences in the `lib/utilities.php` file including your parent theme's files as dependencies.
-1. Edit the `webpack.mix.js` file to update the hostname.
- 1. Run `yarn run dev` or `yarn run watch` to get started. The full list of commands is in `package.json`
+1. Edit the `webpack.mix.js` file to update the `proxy` hostname.
+1. Run `yarn run dev` or `yarn run watch` to get started. The full list of commands is in `package.json`
