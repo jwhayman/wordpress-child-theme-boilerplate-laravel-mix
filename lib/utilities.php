@@ -23,6 +23,7 @@ class Utilities {
 			'parent_theme'
 		], false, true );
 		wp_enqueue_style( 'wildpress-css', get_stylesheet_directory_uri() . '/dist' . $manifest->{'/main.css'}, [ 'parent_theme' ] );
+		wp_localize_script( 'wildpress-js', 'ajax_url', admin_url( 'admin-ajax.php' ) );
 	}
 }
 
